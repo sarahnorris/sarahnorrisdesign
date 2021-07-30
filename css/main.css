@@ -1,0 +1,188 @@
+/*****Base Styles*****/
+body {
+  color: #095156;
+  font-family: 'Red Hat Display';
+}
+
+h4, p {
+  font-size: 25;
+  font-weight: normal;
+  text-align: center;
+}
+
+/*****Grid*****/
+.col-12 {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.col-6 {
+  float:left;
+  width: 600px;
+}
+
+.col-3 {
+  float: left;
+  width: 400px;
+}
+
+.spacedColumnLarge {
+  padding-top:13px;
+  padding-bottom:50px;
+}
+
+/*****Header*****/
+.homeHeader {
+  background: url('../img/garden-coffee.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  margin-top: 50px;
+}
+
+.background {
+  background-color: rgba(0,0,0,0.4);
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  background-color: #eff;
+  border-bottom: 1px solid #eee;
+  display: block;
+  height: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 13px;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 35%;
+}
+
+nav ul li a {
+  color: #095156;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: uppercase;
+}
+
+.headerName {
+  color: #bdbf09;
+  font-family: myanmar mn;
+  font-size: 95px;
+  line-height: 25px;
+  margin: 155px 0 40px 0;
+  text-shadow: 2px 2px 5px black;
+}
+
+.headerSubName {
+  color: #fffeff;
+  font-size: 40px;
+  font-weight: 400;
+  padding-right: 150px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.sectionName {
+  color: #fffeff;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 36px;
+  text-align: center;
+}
+
+/*****Portfolio*****/
+
+.polaroid {
+  height: 320px;
+  width: 95%;
+  background-color: #eff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 35px;
+}
+
+.polaroid img {
+  height: auto;
+  width: 100%
+}
+
+.polaroidContainer {
+  text-align: center;
+  padding:10px;
+}
+.polaroidTitle {
+  margin: 0;
+}
+.polaroidText {
+  margin: 0;
+}
+
+
+
+/*****Aboutborder: 100px solid #087e8b;
+border-radius: 5px*****/
+
+#about {
+  background-color: #087e8b;
+  height: 600px;
+}
+
+.aboutMeimg {
+  border: 5px solid white;
+  border-radius: 5px;
+  display: block;
+  height: auto;
+  margin-bottom: 54px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.aboutDescription {
+  color: #fffeff;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 25px;
+  padding-right: 107px;
+  text-align: justify;
+}
+
+.aboutDescription span {
+  color: #eff;
+  text-transform: uppercase;
+}
+
+.sectionName span {
+  color: #095156;
+}
+
+/*****Contact*****/
+#contact {
+  background-color: #095156;
+  text-align: center;
+}
+
+.contactText {
+  color: #ffffff;
+  font-size: 18px;
+  line-height:30px;
+  padding: 0 50px;
+}
+
+.contactLink {
+  color: #fffeff;
+}
